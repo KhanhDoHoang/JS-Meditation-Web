@@ -31,6 +31,19 @@ const app = () => {
         checkPlaying(song);
     });
 
+    replay.addEventListener("click", function () {
+        restartSong(song);
+
+    });
+
+
+    const restartSong = song => {
+        let currentTime = song.currentTime;
+        song.currentTime = 0;
+        console.log("ciao")
+
+    }
+
     timeSelect.forEach(option => {
         option.addEventListener("click", function () {
             fakeDuration = this.getAttribute("data-time");
