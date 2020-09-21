@@ -1,0 +1,24 @@
+{
+  "name": "meditation-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "homepage": "https://KhanhDoHoang.github.io/Meditation-app",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhanhDoHoang/JS-Meditation-Web.git"
+  },
+  "author": "Hoang Do",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KhanhDoHoang/JS-Meditation-Web/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
